@@ -1,0 +1,49 @@
+1. Introduction
+ 5. Related work/ Technologies 
+ - IVshmem
+ - microkernels, user space drivers, UML, user space libraries for network stacks
+ - IMR, LivePatch, paging, linux capabilities, cgroups, app armour, se linux, etc.
+ - CRIU
+2. Virtualization
+ intel clear containers
+3. Linux containers
+	 -what are they - wikipedia
+ 	- types
+    - comparison between them - find a paper
+    - Efficiency
+    - Limitations
+	- WHY INSMOD IS a bad idea ? Problems in allowing access to kernel while insmod
+ 4.    UIO 
+ 5. virtualization extensions
+ - virtualization extensions  - EPT, VTx, APICv
+- 	KVM + KVM API
+ 6. Binary file analysis - sections, loading, linking, kernel module ELF
+  linking,  loading, what happens when insmod is done- refer notes.
+
+5. Exploring Design space
+  - design alternatives + adv/disadv of each approach
+ 
+ 6. Design
+6. Challenges
+ -challenges - exposing kobjeccts in containers, interrupt delivery, etc.
+ 7. Implementation
+ 8. Verification / demonstration/ Experimentation
+ 9. future work
+ 10. conclusion
+ 
+ 
+ - bringing containers closer to VM - approaches
+ - bringing Vms closer to containers - intel clear containers, many others as well
+ - security in linux
+ - challenges
+ - requirements/ use cases for each subsystem
+ - containers vs VMs - table
+ 
+ 
+
+ 
+
+ 
+
+
+user - kernel communication - eventfd, system calls, unix sockets
